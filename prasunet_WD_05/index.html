@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/179f43bc7a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-box">
+            <div class="weather-box-name">
+                <h2 class="task-name">Weather App</h2>
+            </div>
+            <div class="weather-box-con">
+                <div class="weather-box-box" id="weather-box-box">
+                    <div class="weather-box-input">
+                        <input type="text" id="city" placeholder="Enter City Name...">
+                        <button id="fetch-weather-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+
+                        <div class="tt">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="checkbox-label">
+                              <i class="fas fa-moon"></i>
+                              <i class="fas fa-sun"></i>
+                              <span class="ball"></span>
+                            </label>
+                        </div>
+
+
+
+                    </div>
+                    <div class="weather-box-output">
+                        <div class="weather-box-icon">
+                            <img src="images/clouds.gif" alt="weather" class="web" id="web">
+                        </div>
+                        <div class="weather-box-data">
+                            <!-- temp, descrption, city, humidity-->
+                            <div class="data">
+                                <div class="weather-temp">
+                                    <span class="temp-value" id="temp-value">20</span><span id="unit">&#176</span><span>C</span>
+                                </div>
+                                <div class="weather-des" id="weather-des">
+                                    Rain
+                                </div>
+                                <div class="weather-city" id="weather-city">
+                                    Amalapuram
+                                </div>
+                                <div class="weather-hu-speed">
+                                    <div class="humidity">
+                                        <img src="images/humidity.gif" alt="humidity" id="icon">
+                                        <div class="hum">
+                                            <span class="hum-text" id="hum-text">60</span><span>%</span><br>
+                                            <span class="text">Humidity</span>
+                                        </div>
+                                    </div>
+                                    <div class="speed">
+                                            <img src="images/wind.gif" alt="airspeed" id="icon">                                         
+                                            <div class="spe">
+                                                <span class="speed-text" id="speed-text">2.5</span><span>km/h</span><br>
+                                                <span class="text">Air Speed</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
