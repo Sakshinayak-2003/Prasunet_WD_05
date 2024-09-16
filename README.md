@@ -9,12 +9,13 @@ style.css: The CSS file that styles the web page, including light and dark modes
 script.js: The JavaScript file that handles the weather data fetching and dark mode toggle functionality.
 
 
-![Screenshot (163)](https://github.com/user-attachments/assets/c2575460-4c84-4f52-bddc-1bb4431c1731)
+![Screenshot (162)](https://github.com/user-attachments/assets/1584c77a-ef8e-4364-81f8-e2a15baf50c4)
 
 searching mumbai city temperature
 
 
-![Screenshot (162)](https://github.com/user-attachments/assets/1584c77a-ef8e-4364-81f8-e2a15baf50c4)
+
+![Screenshot (163)](https://github.com/user-attachments/assets/c2575460-4c84-4f52-bddc-1bb4431c1731)
 
 Mumbai temperature
 
